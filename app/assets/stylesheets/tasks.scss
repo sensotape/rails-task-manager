@@ -1,0 +1,14 @@
+.tasks-container {
+  padding-top: 25px;
+  max-width: 470px;
+}
+
+.edit-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trashbin:hover {
+  text-decoration: none;
+}
