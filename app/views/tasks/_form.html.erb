@@ -1,13 +1,13 @@
 <div class="form-group">
   <%= form_for(task) do |f| %>
     <%= f.label :title %>
-    <%= f.text_field :title, class: 'form-control' %>
+    <%= f.text_field :title, class: 'form-control margin-bottom' %>
 
     <%= f.label :details %>
-    <%= f.text_area :details, class: 'form-control' %>
+    <%= f.text_area :details, class: 'form-control margin-bottom' %>
 
     <% unless task.new_record? %>
-      <div class="form-check">
+      <div class="form-check margin-bottom">
         <%= f.check_box :completed, class: 'form-check-input' %>
         <%= f.label :completed, class: 'form-check-label' %>
       </div>
